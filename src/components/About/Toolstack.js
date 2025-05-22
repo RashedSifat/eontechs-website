@@ -6,13 +6,16 @@ import {
   SiSlack,
   SiVercel,
   SiMacos,
+  SiSublimetext,
+  SiNetlify,
 } from "react-icons/si";
+import { FaDocker, FaFigma, FaChrome, } from "react-icons/fa";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
+        <SiSublimetext />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
@@ -24,7 +27,16 @@ function Toolstack() {
         <SiSlack />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <FaDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaFigma />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaChrome />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNetlify />
       </Col>
     </Row>
   );

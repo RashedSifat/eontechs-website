@@ -16,20 +16,32 @@ import {
   SiNextdotjs,
   SiSolidity,
   SiPostgresql,
+  SiShopify,
+  SiTailwindcss,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
+import { 
+  FaWordpress,
+  FaSquarespace,
+  FaWix,
+  FaPhp,
+  FaCss3Alt,
+} from "react-icons/fa";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <FaPhp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaCss3Alt />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
@@ -38,7 +50,10 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiShopify />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaWordpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
@@ -50,10 +65,13 @@ function Techstack() {
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <CgCPlusPlus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <FaSquarespace />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaWix />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />

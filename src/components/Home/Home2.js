@@ -1,13 +1,18 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
+import Card from "react-bootstrap/Card";
+import { ImPointRight } from "react-icons/im";
+import Button from "react-bootstrap/Button";
+import { CgFileDocument } from "react-icons/cg";
 import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF } from 'react-icons/fa';
 
 function Home2() {
   return (
@@ -19,22 +24,21 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
+              Hi Everyone, I am <span className="purple">Rashed </span> and
+              I have completed my MSc in Computer Science and Engineering at Jahangirnagar University, Dhaka, BD.
+              <br />
+              <br />
+              I fell in love with programming at my early age, started ACM solving with C and C++ at <a href="https://uhunt.onlinejudge.org/id/60961">Onlinejudge.org</a> and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> PHP, Javascript and C++. </b>
               </i>
               <br />
-              <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are building new 
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple"> Web Technologies and Products. </b>
               </i>
               <br />
               <br />
@@ -50,24 +54,50 @@ function Home2() {
               <i>
                 <b className="purple"> React.js and Next.js</b>
               </i>
+              <br />
+              <br />
+              Currently, I am running this Agency as a program manager and web developer.
+              <br />
+              <br />
+              Apart from coding, some other activities that I love to do!
             </p>
+    
+            <ul>
+              <li className="about-activity">
+                <ImPointRight /> Omnivorous Reading
+              </li>
+              <li className="about-activity">
+                <ImPointRight /> Writing Blogs
+              </li>
+              <li className="about-activity">
+                <ImPointRight /> Travelling
+              </li>
+            </ul>
           </Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
+            <p style={{ marginTop: "40px" }}>
+              <Button
+                variant="primary"
+                href="/resume"
+                style={{ marginLeft: "10px" }}
+              >
+                <CgFileDocument style={{ marginBottom: "4px" }} /> &nbsp;
+                {"MY RESUME"}
+              </Button>
+            </p>
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/RashedSifat"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,6 +105,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
+              {/*
               <li className="social-icons">
                 <a
                   href="https://twitter.com/Soumyajit4419"
@@ -85,9 +116,10 @@ function Home2() {
                   <AiOutlineTwitter />
                 </a>
               </li>
+              */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/rashedsifat/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,15 +129,18 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.facebook.com/rashedsifat/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <FaFacebookF />
                 </a>
               </li>
             </ul>
+            <p>
+              Feel free to <span className="purple">connect </span>with me
+            </p>
           </Col>
         </Row>
       </Container>

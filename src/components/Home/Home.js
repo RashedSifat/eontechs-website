@@ -21,12 +21,12 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                We're
+                <strong className="main-name"> Eon Tech Solutions</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
+                <span style={{ fontSize: "2.2em" }}>Your's</span> <Type />
               </div>
             </Col>
 
