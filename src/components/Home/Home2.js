@@ -2,14 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
-import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 import Button from "react-bootstrap/Button";
 import { CgFileDocument } from "react-icons/cg";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from 'react-icons/fa';
