@@ -7,7 +7,8 @@ function Type() {
       options={{
         strings: [
           "Software Developers",
-          "E-Commerce & Web App Developers | Shopify & JS Specialists",
+          "E-Commerce & Web App Developers",
+          "Shopify & JS Specialists",
           "Full Stack Web Developers",
           "Tech-Savvy Freelancers",
         ],
