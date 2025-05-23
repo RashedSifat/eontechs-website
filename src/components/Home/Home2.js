@@ -10,6 +10,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from 'react-icons/fa';
+import { Link } from "react-router-dom";
 
 function Home2() {
   return (
@@ -77,14 +78,11 @@ function Home2() {
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
             <p style={{ marginTop: "40px" }}>
-              <Button
-                variant="primary"
-                href="https://eontechs.com/resume"
-                style={{ marginLeft: "10px" }}
-              >
-                <CgFileDocument style={{ marginBottom: "4px" }} /> &nbsp;
-                {"MY RESUME"}
-              </Button>
+              <Link to="/resume">
+                <Button variant="primary">
+                  <CgFileDocument style={{ marginBottom: "4px" }} /> &nbsp; MY RESUME
+                </Button>
+              </Link>
             </p>
           </Col>
         </Row>
