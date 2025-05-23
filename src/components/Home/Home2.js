@@ -26,7 +26,7 @@ function Home2() {
               I have completed my MSc in Computer Science and Engineering at Jahangirnagar University, Dhaka, BD.
               <br />
               <br />
-              I fell in love with programming at my early age, started ACM solving with C and C++ at <a href="https://uhunt.onlinejudge.org/id/60961"><b className="purple">Onlinejudge.org</b></a> and I have at least learnt
+              I fell in love with programming at my early age, started ACM solving with C and C++ at <a href="https://uhunt.onlinejudge.org/id/60961" target="_blank"><b className="purple">Onlinejudge.org</b></a> and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
               <br />I am fluent in classics like
