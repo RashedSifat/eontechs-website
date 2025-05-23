@@ -79,7 +79,7 @@ function Home2() {
             <p style={{ marginTop: "40px" }}>
               <Button
                 variant="primary"
-                href="/resume"
+                href="https://eontechs.com/resume"
                 style={{ marginLeft: "10px" }}
               >
                 <CgFileDocument style={{ marginBottom: "4px" }} /> &nbsp;
