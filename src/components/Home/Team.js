@@ -12,7 +12,7 @@ function TremMembers() {
  	<Container className="team-members" id="team">
       <h1>TEAM <span className="purple">MEMBERS</span></h1>
       <Row className="team-members-content">
-        <Col md={12} style={{ paddingBottom: 20 }}>
+        <Col md={12} style={{ padding: 20 }}>
             <Tilt>
               <img
                 src={Img1}
