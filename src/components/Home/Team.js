@@ -9,9 +9,9 @@ import { CgFileDocument } from "react-icons/cg";
 function TremMembers() {
   return (
  	<Container className="team-members" id="team">
-      <h1>TEAM <span className="purple">MEMBERS</span></h1>
+      <h1>Team <span className="purple">Members</span></h1>
       <Row className="team-members-content">
-        <Col md={12} style={{ padding: 40 }}>
+        <Col md={12} style={{ padding: "0 40px" }}>
             <Tilt>
               <img
                 src={Img1}
