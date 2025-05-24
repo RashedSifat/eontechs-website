@@ -23,7 +23,7 @@ function AboutCard() {
             cutting-edge technologies</span> to deliver results that are not only technically 
             sound but also impactful. With a global client base and a passion for 
             excellence, EonTechs is dedicated to providing tailored digital solutions 
-            that<span className="purple"> empower businesses and drive growth.</span>
+            that<span className="purple"> empower businesses and drive growth</span>.
           </p>
 
         </blockquote>

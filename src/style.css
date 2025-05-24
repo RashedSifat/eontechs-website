@@ -308,7 +308,7 @@ button:focus {
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 40px !important;
+  padding-top: 10px !important;
 }
 
 @media (max-width: 767px) {
@@ -339,10 +339,18 @@ button:focus {
 
 .home-about-social {
   text-align: center !important;
+  padding-top: 5px;
+  color: white !important;
+}
+.team-members {
+  text-align: center !important;
   padding-top: 25px;
   color: white !important;
 }
-
+.team-members-content {
+  padding-top: 40px;
+  padding-bottom: 40px !important;
+}
 .home-about-social-links {
   justify-content: center !important;
   padding-top: 15px !important;

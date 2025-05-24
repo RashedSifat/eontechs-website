@@ -13,7 +13,7 @@ function Footer() {
         </Col>
         */}
         <Col md="12" className="footer-copywright">
-          <h3>Copyright © {year}, EonTechs.com | Thie website is a open source react app developed by Soumyajit Behera</h3>
+          <h3>Copyright © {year}, EonTechs.com | Thie website is an open source react app developed by Soumyajit Behera</h3>
         </Col>
         {/*
         <Col md="4" className="footer-body">

@@ -1,16 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from 'react-router-dom';
 import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import { ImPointRight } from "react-icons/im";
 import Button from "react-bootstrap/Button";
 import { CgFileDocument } from "react-icons/cg";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaFacebookF } from 'react-icons/fa';
-import { Link } from "react-router-dom";
+import Social from "./Social";
+
 
 function Home2() {
   return (
@@ -26,7 +23,7 @@ function Home2() {
               I have completed my MSc in Computer Science and Engineering at Jahangirnagar University, Dhaka, BD.
               <br />
               <br />
-              I fell in love with programming at my early age, started ACM solving with C and C++ at <a href="https://uhunt.onlinejudge.org/id/60961" target="_blank"><b className="purple">Onlinejudge.org</b></a> and I have at least learnt
+              I fell in love with programming at my early age, started ACM solving with C and C++ at <a href="https://uhunt.onlinejudge.org/id/60961" target="+blank"><b className="purple">Onlinejudge.org</b></a> and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
               <br />I am fluent in classics like
@@ -84,60 +81,11 @@ function Home2() {
                 </Button>
               </Link>
             </p>
+
+            <Social />
+
           </Col>
-        </Row>
-        <Row>
-          <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/RashedSifat"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              {/*
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              */}
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/rashedsifat/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.facebook.com/rashedsifat/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <FaFacebookF />
-                </a>
-              </li>
-            </ul>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
-          </Col>
-        </Row>
+        </Row>       
       </Container>
     </Container>
   );
