@@ -77,7 +77,7 @@ function Home2() {
             <br/>
             <h4>Rasheduzzaman Sifat</h4>
             <h5><span className="purple">Program Manager | eCommerce Specialist</span></h5>
-            <p style={{ marginTop: "40px" }}>
+            <p style={{ marginTop: "20px" }}>
               <Link to="/resume">
                 <Button variant="primary">
                   <CgFileDocument style={{ marginBottom: "4px" }} /> &nbsp; MY RESUME

@@ -27,7 +27,7 @@ function Home() {
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
-                <span style={{ fontSize: "2.2em" }}>Your's</span> <Type />
+                <span style={{ fontSize: "2.4em" }}>Your's</span> <Type />
               </div>
             </Col>
 
