@@ -11,7 +11,7 @@ function TremMembers() {
  	<Container className="team-members" id="team">
       <h1>TEAM <span className="purple">MEMBERS</span></h1>
       <Row className="team-members-content">
-        <Col md={12} style={{ padding: 20 }}>
+        <Col md={12} style={{ padding: 40 }}>
             <Tilt>
               <img
                 src={Img1}
@@ -23,7 +23,7 @@ function TremMembers() {
             <br/>
             <h4>A S M Morshed</h4>
             <h5><span className="purple">Cloud Analyst | Solution Consultant</span></h5>
-            <p style={{ marginTop: "40px" }}>
+            <p style={{ marginTop: "20px" }}>
               <Link to="/resume-morshed">
                 <Button variant="primary">
                   <CgFileDocument style={{ marginBottom: "4px" }} /> &nbsp; RESUME
