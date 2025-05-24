@@ -23,7 +23,7 @@ function TremMembers() {
             </Tilt>
             <br/>
             <h4>A S M Morshed</h4>
-            <h5><span className="purple">Cloud Analyst | Solution consultant</span></h5>
+            <h5><span className="purple">Cloud Analyst | Solution Consultant</span></h5>
             <p style={{ marginTop: "20px" }}>
               <Link to="/resume-morshed">
                 <Button variant="primary">

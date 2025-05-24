@@ -74,6 +74,9 @@ function Home2() {
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
+            <br/>
+            <h4>Rasheduzzaman Sifat</h4>
+            <h5><span className="purple">Program Manager | eCommerce Specialist</span></h5>
             <p style={{ marginTop: "40px" }}>
               <Link to="/resume">
                 <Button variant="primary">
