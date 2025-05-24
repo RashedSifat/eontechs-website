@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
 import Img1 from "../../Assets/morshed.png";
 import Tilt from "react-parallax-tilt";
 import { Link } from 'react-router-dom';

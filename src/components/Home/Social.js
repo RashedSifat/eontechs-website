@@ -1,14 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
-import myImg from "../../Assets/avatar.png";
-import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from 'react-icons/fa';
-import { Link } from "react-router-dom";
 
 function SocialContact() {
   return (
