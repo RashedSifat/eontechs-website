@@ -4,9 +4,11 @@ import { Link } from 'react-router-dom';
 import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import { ImPointRight } from "react-icons/im";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import { CgFileDocument } from "react-icons/cg";
 import Social from "./Social";
+
+import Button from "@mui/material/Button";
 
 
 function Home2() {
@@ -23,7 +25,7 @@ function Home2() {
             <h5><span className="purple">Program Manager | eCommerce Specialist</span></h5>
             <p style={{ marginTop: "20px" }}>
               <Link to="/resume">
-                <Button variant="primary">
+                <Button variant="outlined">
                   <CgFileDocument style={{ marginBottom: "4px" }} /> &nbsp; MY RESUME
                 </Button>
               </Link>

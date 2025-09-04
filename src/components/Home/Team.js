@@ -3,7 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import Img1 from "../../Assets/morshed.png";
 import Tilt from "react-parallax-tilt";
 import { Link } from 'react-router-dom';
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
+import Button from "@mui/material/Button";
+
 import { CgFileDocument } from "react-icons/cg";
 
 function TremMembers() {
@@ -25,7 +27,7 @@ function TremMembers() {
             <h5><span className="purple">Cloud Analyst | Solution Consultant</span></h5>
             <p style={{ marginTop: "20px" }}>
               <Link to="/resume-morshed">
-                <Button variant="primary">
+                <Button variant="outlined">
                   <CgFileDocument style={{ marginBottom: "4px" }} /> &nbsp; RESUME
                 </Button>
               </Link>
