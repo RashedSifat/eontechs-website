@@ -299,8 +299,12 @@ button:focus {
 }
 
 .heading-name {
-  font-size: 3.4em;
+  font-size: 3.2em;
   padding-left: 45px;
+}
+
+.Typewriter {
+    display: inline;
 }
 
 .main-name {
