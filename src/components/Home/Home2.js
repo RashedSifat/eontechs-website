@@ -14,6 +14,25 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
+          <Col md={4} className="myAvtar">
+            <Tilt>
+              <img src={myImg} className="img-fluid" alt="avatar" />
+            </Tilt>
+            <br/>
+            <h4>Rasheduzzaman Sifat</h4>
+            <h5><span className="purple">Program Manager | eCommerce Specialist</span></h5>
+            <p style={{ marginTop: "20px" }}>
+              <Link to="/resume">
+                <Button variant="primary">
+                  <CgFileDocument style={{ marginBottom: "4px" }} /> &nbsp; MY RESUME
+                </Button>
+              </Link>
+            </p>
+
+            <Social />
+
+          </Col>
+          
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               Let Me <span className="purple"> Introduce </span> Myself
@@ -68,25 +87,6 @@ function Home2() {
                 <ImPointRight /> Travelling
               </li>
             </ul>
-          </Col>
-
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-            <br/>
-            <h4>Rasheduzzaman Sifat</h4>
-            <h5><span className="purple">Program Manager | eCommerce Specialist</span></h5>
-            <p style={{ marginTop: "20px" }}>
-              <Link to="/resume">
-                <Button variant="primary">
-                  <CgFileDocument style={{ marginBottom: "4px" }} /> &nbsp; MY RESUME
-                </Button>
-              </Link>
-            </p>
-
-            <Social />
-
           </Col>
         </Row>       
       </Container>
