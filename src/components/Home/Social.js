@@ -1,10 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaFacebookF } from 'react-icons/fa';
+import { AiFillGithub } from "react-icons/ai";
+import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 
 function SocialContact() {
   return (
@@ -22,18 +19,6 @@ function SocialContact() {
                 <AiFillGithub />
               </a>
             </li>
-            {/*
-            <li className="social-icons">
-              <a
-                href="https://twitter.com/Soumyajit4419"
-                target="_blank"
-                rel="noreferrer"
-                className="icon-colour  home-social-icons"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            */}
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/rashedsifat/"
@@ -44,6 +29,7 @@ function SocialContact() {
                 <FaLinkedinIn />
               </a>
             </li>
+            {/*
             <li className="social-icons">
               <a
                 href="https://www.facebook.com/rashedsifat/"
@@ -54,6 +40,7 @@ function SocialContact() {
                 <FaFacebookF />
               </a>
             </li>
+            */}
           </ul>
           <p>
             Feel free to <a href="mailto:me.sifat@live.com"><span className="purple">connect </span></a>with me

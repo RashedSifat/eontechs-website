@@ -7,7 +7,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            <span className="purple">Eon Tech Solutions [ EonTechs.com ]</span> stands at the forefront of innovation 
+            Eon Tech Solutions <span className="purple">[ EonTechs.com ]</span> stands at the forefront of innovation 
             and sustainability in the digital landscape. We are committed to building 
              <span className="purple"> robust, scalable, and future-ready web solutions</span> that evolve with the 
             dynamic needs of businesses worldwide.<br /><br />

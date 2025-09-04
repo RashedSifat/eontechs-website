@@ -14,20 +14,22 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 0 }} className="heading">
+              <h2 style={{ paddingBottom: 0 }} className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
-              </h1>
+              </h2>
 
-              <h1 className="heading-name">
+              <h2 className="heading-name">
                 We're
                 <strong className="main-name"> EonTechs</strong>
-                <br/><br/>
-                Your's
-                <Type />
-              </h1>
+                <br/><br/>                
+              </h2>
+
+              <h2 className="heading">Your's</h2>
+              
+              <h2 className="heading-name"><Type /></h2>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
