@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
-import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 function SocialContact() {
   return (
