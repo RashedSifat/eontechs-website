@@ -15,6 +15,9 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
+        <h1 style={{ fontSize: "2.6em" }}>
+          Let Me <span className="purple"> Introduce </span> Myself
+        </h1>
         <Row>
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -36,9 +39,6 @@ function Home2() {
           </Col>
           
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              Let Me <span className="purple"> Introduce </span> Myself
-            </h1>
             <p className="home-about-body">
               Hi Everyone, I am <span className="purple">Rashed </span> and
               I have completed my MSc in Computer Science and Engineering at Jahangirnagar University, Dhaka, BD.
