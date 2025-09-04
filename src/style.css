@@ -21,6 +21,13 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background-image: none;
 }
+
+@media only screen and (min-width: 1640px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1680px !important;
+  }
+}
+
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   color: #000 !important;
 }
@@ -157,6 +164,9 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+  .navbar>.container {
+    justify-content: space-around !important;
+  }
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
@@ -165,9 +175,15 @@ button:focus {
   .navbar-nav .nav-item a::after {
     display: none !important;
   }
+  .home-content,
+  .about-section,
+  .project-section {
+    padding-top: 11rem !important;
+  }
 }
 .navbar-brand {
   color: rgb(250, 250, 250) !important;
+  margin-right: 0 !important;
 }
 
 .logo {
@@ -193,7 +209,7 @@ button:focus {
 
 .navbar-nav .nav-item {
   position: relative;
-  margin-left: 20px;
+  //margin-left: 20px;
 }
 
 .navbar-nav .nav-item a {
@@ -267,7 +283,8 @@ button:focus {
 }
 
 .home-header {
-  padding-top: 30px !important;
+  //padding-top: 30px !important;
+  align-content: center;
 }
 
 .home-section {
@@ -281,7 +298,7 @@ button:focus {
 }
 
 .home-content {
-  padding: 6rem 0 2rem !important;
+  padding: 6rem 0 2rem;
   color: whitesmoke;
   text-align: left;
 }
@@ -307,9 +324,14 @@ button:focus {
     display: inline;
 }
 
+.myAvtar .img-fluid {
+  width: 80%; 
+}
+
 .main-name {
+  font-size: 120%;
   color: #cd5ff8;
-  letter-spacing: 1px;
+  letter-spacing: 16px;
 }
 
 .Typewriter__wrapper {
@@ -381,7 +403,7 @@ button:focus {
 }
 .home-about-social-links {
   justify-content: center !important;
-  padding-top: 15px !important;
+  //padding-top: 15px !important;
   display: inline-block !important;
   position: relative !important;
   padding-inline-start: 0 !important;
@@ -483,7 +505,7 @@ button:focus {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 150px;
   padding-bottom: 30px !important;
  //background-image: var(--section-background-color) !important;
 }
@@ -581,7 +603,7 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 150px;
   padding-bottom: 30px !important;
   //background-image: var(--section-background-color) !important;
   color: #000 !important;

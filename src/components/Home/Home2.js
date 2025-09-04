@@ -52,10 +52,10 @@ function Home2() {
                 <b className="purple"> PHP, Javascript and C++. </b>
               </i>
               <br />
-              My field of Interest's are building new 
+              My field of Interest is building 
               <i>
-                <b className="purple"> Web Technologies and Products. </b>
-              </i>
+                <b className="purple"> Web Products</b>
+              </i> using new technologies.
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
@@ -66,7 +66,7 @@ function Home2() {
                   Modern Javascript Library and Frameworks
                 </b>
               </i>
-              &nbsp; like
+              &nbsp;like
               <i>
                 <b className="purple"> React.js and Next.js</b>
               </i>
@@ -75,7 +75,7 @@ function Home2() {
               Currently, I am running this Agency as a program manager and web developer.
               <br />
               <br />
-              Apart from coding, some other activities that I love to do!
+              💡 Apart from coding, some other activities that I love to do!
             </p>
     
             <ul>
@@ -83,10 +83,7 @@ function Home2() {
                 <ImPointRight /> Omnivorous Reading
               </li>
               <li className="about-activity">
-                <ImPointRight /> Writing Blogs
-              </li>
-              <li className="about-activity">
-                <ImPointRight /> Travelling
+                <ImPointRight /> Content Making
               </li>
             </ul>
           </Col>

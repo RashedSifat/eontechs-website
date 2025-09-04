@@ -16,7 +16,7 @@ function AboutCard() {
             and design to full-stack implementation and deployment. Our team is 
             equipped with the expertise to manage complex projects, ensuring<span className="purple"> technical 
             excellence, user-centric design, and seamless functionality</span>. We specialize 
-            in crafting <span className="purple"> custom websites, e-commerce platforms, and web applications</span> 
+            in crafting <span className="purple"> custom websites, e-commerce platforms, and web applications </span> 
             that align with each client’s brand and business goals.<br /><br />
 
             Our process combines <span className="purple"> strategic planning, agile project management, and 

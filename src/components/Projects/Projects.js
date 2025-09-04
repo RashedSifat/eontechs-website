@@ -21,8 +21,7 @@ function Projects() {
               imgPath={eontechs}
               isBlog={false}
               title="EonTechS"
-              description="EonTechS is a full-stack web development and automation agency helping brands, startups, and enterprises scale their digital presence. We specialize in high-performance websites, eCommerce solutions, and AI-driven platforms built with modern frameworks like React, Next.js, Shopify, WordPress, and headless CMS.
-              EonTechS team combines cutting-edge tech, conversion-focused design, and automation expertise to deliver solutions that are not just visually stunning but also fast, scalable, and optimized for growth. Whether you need a custom Shopify store, SaaS platform, or AI integration, we provide end-to-end development, cloud infrastructure, and cost-efficient deployment strategies."
+              description="EonTechS is a full-stack web development and automation agency helping brands, startups, and enterprises scale their digital presence. We specialize in high-performance websites, eCommerce solutions, and AI-driven platforms built with modern frameworks like React, Next.js, Shopify, WordPress, and headless CMS."
               ghLink="https://github.com/RashedSifat/eontechs-website"
               demoLink="https://eontechs.com/"
             />
@@ -32,8 +31,7 @@ function Projects() {
               imgPath={eontechs}
               isBlog={false}
               title="EonTechS"
-              description="EonTechS is a full-stack web development and automation agency helping brands, startups, and enterprises scale their digital presence. We specialize in high-performance websites, eCommerce solutions, and AI-driven platforms built with modern frameworks like React, Next.js, Shopify, WordPress, and headless CMS.
-              EonTechS team combines cutting-edge tech, conversion-focused design, and automation expertise to deliver solutions that are not just visually stunning but also fast, scalable, and optimized for growth. Whether you need a custom Shopify store, SaaS platform, or AI integration, we provide end-to-end development, cloud infrastructure, and cost-efficient deployment strategies."
+              description="EonTechS is a full-stack web development and automation agency helping brands, startups, and enterprises scale their digital presence. We specialize in high-performance websites, eCommerce solutions, and AI-driven platforms built with modern frameworks like React, Next.js, Shopify, WordPress, and headless CMS."
               ghLink="https://github.com/RashedSifat/eontechs-website"
               demoLink="https://eontechs.com/"
             />
@@ -43,14 +41,11 @@ function Projects() {
               imgPath={eontechs}
               isBlog={false}
               title="EonTechS"
-              description="EonTechS is a full-stack web development and automation agency helping brands, startups, and enterprises scale their digital presence. We specialize in high-performance websites, eCommerce solutions, and AI-driven platforms built with modern frameworks like React, Next.js, Shopify, WordPress, and headless CMS.
-              EonTechS team combines cutting-edge tech, conversion-focused design, and automation expertise to deliver solutions that are not just visually stunning but also fast, scalable, and optimized for growth. Whether you need a custom Shopify store, SaaS platform, or AI integration, we provide end-to-end development, cloud infrastructure, and cost-efficient deployment strategies."
+              description="EonTechS is a full-stack web development and automation agency helping brands, startups, and enterprises scale their digital presence. We specialize in high-performance websites, eCommerce solutions, and AI-driven platforms built with modern frameworks like React, Next.js, Shopify, WordPress, and headless CMS."
               ghLink="https://github.com/RashedSifat/eontechs-website"
               demoLink="https://eontechs.com/"
             />
           </Col>
-
-      
         </Row>
       </Container>
     </Container>
