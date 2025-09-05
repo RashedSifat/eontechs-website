@@ -5,9 +5,9 @@ import { Row } from "react-bootstrap";
 function Github() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-      <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
+      <h2 style={{ paddingBottom: "20px" }}>
         Days We <strong className="purple">Code</strong>
-      </h1>
+      </h2>
       <GitHubCalendar
         username="soumyajit4419"
         blockSize={15}

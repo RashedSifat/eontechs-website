@@ -12,9 +12,9 @@ function About() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+        <h2>
           Know Who <strong className="purple">We Are</strong>
-        </h1>
+        </h2>
         <Row style={{ justifyContent: "center", alignItems: "center", padding: "10px" }}>
           <Col
             md={7}
@@ -26,15 +26,15 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <h1 className="project-heading">
+        <h2>
           Professional <strong className="purple">Skillset </strong>
-        </h1>
+        </h2>
 
         <Techstack />
 
-        <h1 className="project-heading">
+        <h2>
           <strong className="purple">Tools</strong> We Use
-        </h1>
+        </h2>
         <Toolstack />
 
         <Github />

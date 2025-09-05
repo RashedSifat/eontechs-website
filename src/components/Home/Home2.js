@@ -15,9 +15,9 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <h1 style={{ fontSize: "2.6em" }}>
+        <h2>
           Let Me <span className="purple"> Introduce </span> Myself
-        </h1>
+        </h2>
         <Row>
           <Col md={4} className="myAvtar">
             <Tilt>

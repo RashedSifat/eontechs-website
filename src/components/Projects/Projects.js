@@ -9,12 +9,12 @@ function Projects() {
     <Container fluid className="project-section">
       <Particle />
       <Container>
-        <h1 className="project-heading">
+        <h2>
           Our Recent <strong className="purple">Projects</strong>
-        </h1>
-        <p>
+        </h2>
+        <h4>
           Explore a few of our recent solutions
-        </p>
+        </h4>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard

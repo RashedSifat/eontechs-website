@@ -11,16 +11,11 @@ import { CgFileDocument } from "react-icons/cg";
 function TremMembers() {
   return (
  	<Container className="team-members" id="team">
-      <h1>Team <span className="purple">Members</span></h1>
+      <h2>Team <span className="purple">Members</span></h2>
       <Row className="team-members-content">
-        <Col md={12} style={{ padding: "0 40px" }}>
+        <Col md={4} style={{ padding: "0 40px" }}>
             <Tilt>
-              <img
-                src={Img1}
-                alt=""
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
+              <img src={Img1} alt="Morshed" className="img-fluid" />
             </Tilt>
             <br/>
             <h4>A S M Morshed</h4>
