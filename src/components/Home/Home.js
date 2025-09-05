@@ -2,9 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.gif";
 import Particle from "../Particle";
+import BannerLogo from "./BannerLogo";
 import Home2 from "./Home2";
 import Type from "./Type";
 import Team from "./Team";
+import LogoCarousel from "./LogoCarousel";
 
 function Home() {
   return (
@@ -25,7 +27,7 @@ function Home() {
                 We're
                 <strong class="purple"> EonTechs,</strong> Your
                 <br/>
-                 -<Type />
+                _<Type />
               </h1>
             </Col>
 
@@ -39,6 +41,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      <LogoCarousel />
       <Home2 />
       <Team />
     </section>

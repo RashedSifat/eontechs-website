@@ -11,7 +11,7 @@ import { CgFileDocument } from "react-icons/cg";
 function TremMembers() {
   return (
  	<Container className="team-members" id="team">
-      <h2>Team <span className="purple">Members</span></h2>
+      <h2>Team <strong className="purple">Members</strong></h2>
       <Row className="team-members-content">
         <Col md={4} style={{ padding: "0 40px" }}>
             <Tilt>

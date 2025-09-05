@@ -32,18 +32,21 @@ body {
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   color: #000 !important;
   padding-bottom: 1rem;
+  font-weight: 600;
 }
 .h1, h1 {
   font-weight: bold;
   text-transform: uppercase;
 }
 .h2, h2 {
-  padding-top: 1rem;
+  text-transform: uppercase;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 @media (min-width: 1200px) {
   .h2, h2 {
     text-transform: uppercase;
-    font-size: 5.5rem !important;
+    font-size: 5rem !important;
     font-weight: 700 !important;
   }
 }
@@ -198,8 +201,8 @@ button:focus {
 }
 
 .logo {
-  height: 4em !important;
-  width: 31.5em !important;
+  height: 4em;
+  width: 31.5em;
 }
 
 .navbar-nav .nav-link {
@@ -215,6 +218,9 @@ button:focus {
 @media (max-width: 767px) {
   .nav-link {
     padding: 0.7rem 1rem !important;
+  }
+  .navbar-brand img.img-fluid.logo {
+    width: 100% !important;
   }
 }
 
@@ -304,8 +310,8 @@ button:focus {
   //background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  //padding-bottom: 30px !important;
+  //padding-top: 30px !important;
 }
 
 .home-content {
@@ -394,7 +400,7 @@ button:focus {
 }
 
 .home-about-body {
-  padding-top: 50px;
+  //padding-top: 50px;
   font-size: 1.2em !important;
   text-align: left;
 }
@@ -810,4 +816,44 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+
+/* LogoCarousel.css */
+
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+  background: #0a0612; /* Optional background */
+  padding: 20px 0;
+}
+
+.carousel-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 20s linear infinite;
+}
+.carousel-track img {
+  padding: 0 25px;
+}
+
+.carousel-item {
+  flex: 0 0 auto;
+  padding: 0 30px;
+}
+
+.carousel-item img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Infinite scroll keyframe */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }

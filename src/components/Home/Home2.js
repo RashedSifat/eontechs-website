@@ -16,7 +16,7 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <h2>
-          Let Me <span className="purple"> Introduce </span> Myself
+          Let Me <strong className="purple"> Introduce </strong> Myself
         </h2>
         <Row>
           <Col md={4} className="myAvtar">
